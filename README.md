@@ -1,3 +1,13 @@
 # EL2020
 
-Hello, and welcome to Mr. Simons's repository for the spring 2020 embedded linux class. This repository will be used as an example of ways to maintain a code base while working on a project. This is **NOT** the Embedded Linux class itself.  That is hosted on Google Classroom.  Please contact "simonsj [at] newpaltz [dot] edu" if you are in the class, but do not have the classroom code.
+![New Paltz Logo](https://github.com/kelpoh/EL2020/blob/master/newpaltzlogo.jpg)
+
+This repository documents my class work and projects done for CPS342.
+
+1. **Personal Information**
+* Name: Eleni Kokkosis
+* Major: Computer Science
+* ID: [N04057406](https://github.com/kelpoh)
+* Year: Junior
+2. **Class Start Date**: Jan 21, 2020
+3. **Class End Date**: May 15, 2020
