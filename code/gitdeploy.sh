@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo  "Are you sure you'd like to fully deploy to Git? [y/n]"
-read input -n
+read input
 
 if [[ $input =~ ^[Yy]$ ]] # Takes either y or Y in
 then
@@ -15,6 +15,6 @@ elif [[ $input =~ ^[Nn$ ]]
 then
 	 exit 1
 else
-	echo "Invalid input. Please try again."
-	read input -n 1 -r
+	echo "Invalid input. Exiting..."
+	exit 1
 fi
