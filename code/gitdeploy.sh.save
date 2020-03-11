@@ -1,0 +1,23 @@
+#!/bin/bash
+
+running=true
+
+while [$running]
+do
+	echo "Are you sure you would like to fully deploy to Git? [y/n]"
+	read userConfirm
+
+	if [$userConfirm='y']
+	then
+		git add  .
+		git add -u
+		read -p -r  'Commit message: '  msg
+		git commit -m "$msg"
+		git push origin master
+
+	elif  ($userConfirm='n')
+		running=false	else
+		echo "Please type y or n."
+		read userConfirm
+	fi
+done
